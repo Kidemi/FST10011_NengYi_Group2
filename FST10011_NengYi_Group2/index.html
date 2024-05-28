@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="Neng Yi Chieng">
+            <meta name="keywords" content="keywords1,keywords2,keywords3 etc">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <title>Volta Auto - electric vehicle here</title>
+        </head>
+        <body>
+            <header>
+                <nav>
+                <ul>
+                    <li><a class="nav-item" href="index.html">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="#">Brand</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">
+                                <a href="tesla_model_s.html">TESLA</a>
+                                <div class="third-level-dropdown">
+                                    <ul>
+                                        <li><a href="tesla_model_s.html">Model S</a></li>
+                                        <li><a href="tesla_model_y.html">Model Y</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="byd_dolphin.html">BYD</a>
+                                <div class="third-level-dropdown">
+                                    <ul>
+                                        <li><a href="byd_dolphin.html">BYD Dolphin</a></li>
+                                        <li><a href="byd_atto_3.html">BYD Atto 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="ora_good_cat.html">ORA</a>
+                                <div class="third-level-dropdown">
+                                    <ul>
+                                        <li><a href="ora_good_cat.html">ORA Good Cat</a></li>
+                                        <li><a href="ora_07.html">ORA 07</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="#">Service</a>
+                        <div class="dropdown-content">
+                            <a href="calculator.html">Calculator</a>
+                            <a href="accessories.html">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="about_team.html">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="about_team.html">About Team</a>
+                            <a href="about_company.html">About Company</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-item" href="form.html">Feedback</a></li>
+                </ul>
+                </nav>
+            </header>
+            <section id="index_slider" class="index_slider_1">
+                
+                <img class="index_slider_img active" src="images/Model%20Y.jpg" alt="Tesla Model Y">
+                <img class="index_slider_img" src="images/BYD.jpg" alt="BYD">
+                <img class="index_slider_img" src="images/ORA.jpg" alt="ORA">
+                
+                <div class="index_slider_content_1 active">
+                    <h1 class="index_slider_h_1"><span class="index_slider_span_1">Tesla Model Y</span><br><span class="index_slider_span_2">Revolution of Car Industry</span></h1>
+
+                    <p class="index_slider_p_1">Model Y: A sleek, versatile SUV designed for the modern driver.<br> With its cutting-edge technology and spacious interior, the Model Y<br>redefines the driving experience.</p>
+                    
+                    <a class="index_slider_a" href="tesla_model_y.html">Read More</a>
+                </div>
+                <div class="index_slider_content_1">
+                    <h1 class="index_slider_h_1"><span class="index_slider_span_1">BYD Atto 3</span><br><span class="index_slider_span_2">Build Your Dreams</span></h1>
+
+                    <p class="index_slider_p_1">BYD Atto 3, a sleek and innovative electric vehicle<br>designed for urban adventurers. Its stylish design and <br>eco-friendly features make it the perfect choice for those<br>seeking a modern, sustainable driving experience.</p>
+                    
+                    <a class="index_slider_a" href="byd_atto_3.html">Read More</a>
+                </div>
+                <div class="index_slider_content_1">
+                    <h1 class="index_slider_h_1"><span class="index_slider_span_1">ORA Good Cat</span><br><span class="index_slider_span_2">Open, Reliable, Alternative</span></h1>
+
+                    <p class="index_slider_p_1">ORA Good Cat, a chic and eco-friendly electric vehicle.<br> With its stylish design and sustainable features, the<br>Good Cat is perfect for urbanites looking to make a stylish<br> statement while reducing their carbon footprint.</p>
+                    
+                    <a class="index_slider_a" href="ora_good_cat.html">Read More</a>
+                </div>
+                
+                <div class="index_slider_nav">
+                    <div class="index_nav_button"></div>
+                    <div class="index_nav_button"></div>
+                    <div class="index_nav_button"></div>
+                </div>
+            </section>
+            
+            <footer>
+                <p><a href="about_team.html" class="footer">Volta Auto &copy; 2024 | Last Updated: 25 May 2024</a></p>
+            </footer>
+            
+            <script type="text/javascript">
+                const btns = document.querySelectorAll(".index_nav_button");
+                const slides = document.querySelectorAll(".index_slider_img");
+                const contents = document.querySelectorAll(".index_slider_content_1");
+
+                var sliderNav= function(manual){
+                    btns.forEach((btn) => {
+                        btn.classList.remove("active");
+                    });
+                    
+                    slides.forEach((slide) => {
+                        slide.classList.remove("active");
+                    });
+                    
+                    contents.forEach((contents) => {
+                        contents.classList.remove("active");
+                    });
+                
+                    btns[manual].classList.add("active");
+                    slides[manual].classList.add("active");
+                    contents[manual].classList.add("active");
+                }
+                
+                btns.forEach((btn,i) => {
+                    btn.addEventListener("click", () => {
+                        sliderNav(i);
+                    });
+                });
+                
+                // JavaScript to include navbar.html
+                function includeHTML() {
+                    const elements = document.querySelectorAll("[id='navbar']");
+                    elements.forEach((el) => {
+                        const file = el.getAttribute("data-include");
+                        if (file) {
+                            fetch(file)
+                                .then(response => response.text())
+                                .then(data => el.innerHTML = data)
+                                .catch(error => console.log("Error loading navbar:", error));
+                        }
+                    });
+                }
+                includeHTML();
+            </script>
+        </body>
+</html>

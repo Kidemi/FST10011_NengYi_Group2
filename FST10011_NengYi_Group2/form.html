@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="Neng Yi Chieng">
+            <meta name="keywords" content="keywords1,keywords2,keywords3 etc">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <title>Volta Auto | Feedback Form </title>
+        </head>
+        <body id="form_whit_bck">
+            <header>
+                <nav>
+                <ul>
+                    <li><a class="nav-item" href="index.html">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="#">Brand</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">
+                                <a href="tesla_model_s.html">TESLA</a>
+                                <div class="third-level-dropdown">
+                                    <ul>
+                                        <li><a href="tesla_model_s.html">Model S</a></li>
+                                        <li><a href="tesla_model_y.html">Model Y</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="byd_dolphin.html">BYD</a>
+                                <div class="third-level-dropdown">
+                                    <ul>
+                                        <li><a href="byd_dolphin.html">BYD Dolphin</a></li>
+                                        <li><a href="byd_atto_3.html">BYD Atto 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="ora_good_cat.html">ORA</a>
+                                <div class="third-level-dropdown">
+                                    <ul>
+                                        <li><a href="ora_good_cat.html">ORA Good Cat</a></li>
+                                        <li><a href="ora_07.html">ORA 07</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="#">Service</a>
+                        <div class="dropdown-content">
+                            <a href="calculator.html">Calculator</a>
+                            <a href="accessories.html">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="about_team.html">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="about_team.html">About Team</a>
+                            <a href="about_company.html">About Company</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-item" href="form.html">Feedback</a></li>
+                </ul>
+                </nav>
+            </header>
+            <article class="feedback_form">
+                <h1>Feedback Form</h1>
+                <hr>
+                <p class="form_text">Welcome to our Feedback Form! We value your input and strive to continuously improve our services. Your feedback helps us understand your needs better and enhances your experience with us.</p>
+                <br>
+                <form>
+                    <fieldset class="feedback_area"><legend>Customer's information</legend>
+                        <p>Name :</p>
+                        <input type="text" name="name" class="name" placeholder="Please Enter Your name" size="40" required="required">
+                        <p>Phone Number :</p>
+                        <input type="tel" name="phone_num" class="phone_num" placeholder="(60)123456789" size="12" required="required">
+                        <p>Email Address(Optional) :</p>
+                        <input type="email" class="email" placeholder="example@example.com" size="40">
+                        <p>Gender :</p>
+                        <select name="gender">
+                            <option value="empty">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <p>Date fill the form :</p>
+                        <input type="date" name="fill_date">
+                    </fieldset>
+                    
+                    <fieldset class="feedback_area"> <legend>Your Feedback</legend>
+                        <p>Tell us about your experiences :</p>
+                        <textarea name="feedback" placeholder="Type your feedback here" rows="5" cols="50"></textarea>
+                        <p>Please rate our service :</p>
+                        <p>1 = Very Poor, 5 = Excellent</p>
+                        <input type="range" name="rating" min="1" max="5" value="3">
+                        <p>Thanks for your feedback !!!</p>
+                        <input class="submit" type="submit" value="Submit">
+                        <input class="reset" type="reset" value="Cancel">
+                    </fieldset>
+                </form>
+            </article>
+            <footer>
+                <p><a href="about_team.html" class="footer">Volta Auto &copy; 2024 | Last Updated: 25 May 2024</a></p>
+            </footer>
+            
+        </body>
+</html>

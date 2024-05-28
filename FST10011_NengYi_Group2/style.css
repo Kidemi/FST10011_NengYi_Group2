@@ -1,0 +1,1175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+    background-color: black;
+}
+
+.whit_bck{
+    background: white;
+}
+
+#form_whit_bck{
+    background-image: url(images/background_form.jpg);
+}
+
+.whit_footer a{
+    color: black;
+}
+
+.car_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 0;
+}
+
+.car-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.car-header, .car-cell {
+    border: 1px solid #444;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.car-header {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.car-cell:nth-child(odd) {
+    background-color: #333;
+}
+
+.car-cell:nth-child(even) {
+    background-color: #444;
+}
+
+.car-cell:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.footer_ora_07 p a{
+    color: black;
+}
+
+footer{
+    padding-top: 150px;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Start of Navbar for Index */
+nav ul li a.nav_index_bla {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+/* End for Navbar for Index */
+
+nav {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(175, 176, 179, 0.8);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative; /* To position dropdowns correctly */
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 160px;
+    z-index: 1;
+    top: 100%; /* Ensure the dropdown is positioned below the parent */
+    left: 0;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    position: relative;
+}
+
+.dropdown-item:hover .third-level-dropdown {
+    display: block;
+}
+
+/* Styles for third-level dropdown */
+.third-level-dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 160px;
+    left: 100%; /* Adjust this value based on your layout */
+    top: 0; /* Ensure alignment with parent dropdown */
+}
+.third-level-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.third-level-dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.third-level-dropdown a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/* End of Nav Bar */
+
+.overlay_tesls_mode_s{
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    color: black;
+    z-index: 1;
+}
+
+.overlay_tesla_model_y {
+    position: absolute;
+    top: 2vh;
+    color: black;
+    font-weight: 200;
+    z-index: 1;
+    text-align: center; 
+    padding-top: 10px; 
+}
+
+.overlay_tesla_model_y h1{
+    font-weight: 200;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    color: white;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    color: white;
+    z-index: 1;
+}
+.overlay_2 {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    color: black;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.overlay_3{
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    color: white;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.overlay_3 p{
+    font-weight: 50;
+}
+.overlay_4{
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    color: black;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.overlay_4 p{
+    font-weight: 50;
+}
+
+.overlay_2 h1 p{
+    margin-bottom: 10px;
+}
+
+.overlay_2 p{
+    font-weight: 700;
+}
+.overlay h2 {
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    margin-bottom: 10px;
+}
+
+.h1_model_y{
+    margin: 0;
+    margin-top: 13vh;
+    font-size: 48px !important;
+}
+
+.slogan_model_y{
+    margin: 0;
+    font-size: 26px !important;
+}
+
+.slogan_model_s{
+    margin: 0;
+    font-size: 26px !important;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.price_model_y{
+    font-weight: 200;
+    font-size: 20px !important;
+    margin: 0;
+}
+
+.action-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0c0c0c;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.action-button.clicked {
+    background-color: #1a1a1a; 
+}
+.action-button:hover{
+    background-color: #3c3d3c;
+}
+
+/* Index Slider */
+.index_slider_h_1 {
+    color: white;
+}
+
+.index_slider_p_1 {
+    color: white;
+}
+
+#index_slider{
+    padding: 5% 10%;
+}
+
+.index_slider_1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.index_slider_1 .index_slider_content_1{
+    z-index: 888;
+    width: 70%;
+    margin-top: 50px;
+    display: none;
+}
+
+.index_slider_1 .index_slider_content_1.active{
+    display: block;
+}
+
+/* Styling for Content */
+.index_slider_span_1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.index_slider_span_2{
+    font-size: 1.7em;
+    font-weight: 300;
+}
+
+.index_slider_p_1{
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.index_slider_1 .index_slider_h_1{
+    margin-bottom: 40px;
+}
+
+.index_slider_a {
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 1.5vw 3.5vw;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    transition: ease-out 0.5s, color ease-out 0.5s, border ease-out 0.5s;
+}
+
+.index_slider_a:hover {
+    color: white;
+    background-color: black;
+    border: solid white 1px;
+}
+
+.index_slider_img{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+/* Slider Nav Button */
+.index_slider_nav{
+    z-index: 888;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(80px);
+    margin-bottom: 12px;
+}
+
+.index_slider_nav .index_nav_button{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(255,255,255,0.5);
+    transition: ease 0.3s;
+}
+
+.index_slider_nav .index_nav_button:not(:last-child){
+    margin-right: 20px;
+}
+
+.index_slider_nav .index_nav_button:hover{
+    transform: scale(1.2);
+}
+
+.index_slider_nav .index_nav_button.active{
+    background: black;
+}
+
+.feedback_area input,textarea{
+    font-size: 20px;
+}
+.feedback_form{
+    color: black;
+}
+
+.feedback_form h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form_text{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+fieldset{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.submit, .reset{
+    margin-top: 50px;
+    padding: 16px 32px;
+    background-color: floralwhite;
+}
+
+.index_slider_img{
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+}
+
+.index_slider_img.active{
+    clip-path: circle(150.0% at 0 50%);
+    transition: 0.5s ease;
+    transition-property: clip-path;
+}
+
+.calculator{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+.calculator input{
+    font-size: 20px;
+}
+
+.loan{
+    margin-bottom: 20px;
+}
+
+.bck_cal{
+    background: url(images/background.webp);
+    width: 100%;
+    height: 100%;
+}
+.cal_title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.loan_button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.tesla_img-container{
+    position: relative;
+    text-align: center; /* Center text horizontally */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    align-items: center; /* Center text horizontally */
+    height: 100%; /* Ensure container takes full height */
+}
+
+.tesla_img-container h1{
+    font-size: 25px;
+}
+
+.tesla_img-container img{
+    width: 100%;
+    height:inherit;
+}
+
+.tesla_img-container p{
+    font-size: 25px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+article{
+    color: white;
+}
+
+.performance{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+.performance img{
+    width: 50%;
+    height: 50%;
+    padding-bottom: 50px;
+}
+
+.y_charge{
+    margin-right: 100px;
+    margin-left: 145px;
+    padding-top: 150px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.y_charge img{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+.intro-tesla{
+    font-size: 25px;
+}
+
+.y_data{
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+
+.y_speed{
+    margin-right: 100px;
+    margin-left: 145px;
+    padding-top: 150px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.y_speed p {
+    font-size: 25px;
+}
+
+.y_speed img{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+.y_speed img:hover {
+    transform: scale(1.1, 1.05);
+}
+
+.y_travel{
+    margin-right: 100px;
+    margin-left: 145px;
+    padding-top: 150px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.y_travel img{
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+
+.y_travel p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.y_size{
+    margin-right: 100px;
+    margin-left: 145px;
+    padding-top: 150px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.y_size img{
+   width: 40%;
+   height: 50%;
+   float: left;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+/* Ora cat intro */
+.ora_intro{
+    position: relative;
+    color: black;
+}
+.ora_intro img{
+    width: 100%;
+}
+
+/* Ora cat slide */
+.ora_1{
+    background-image: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 50px;
+}
+.ora_slide{
+    padding-top: 10px;
+    padding-bottom: 150px;
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.ora_slide img{
+    float: inherit;
+    height: 140%;
+    width: 110%;
+}
+
+.ora_text{
+    padding-top: 150px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Ora cat interior */
+.ora_design img{
+    height: 100%;
+    width: 100%;
+}
+
+.ora_interior{
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-top: 200px;
+    color: black;
+    font-size: 25px;
+}
+
+.ora_interior h3{
+    padding-top: 130px;
+}
+
+.ora_interior p{
+    padding-bottom: 180px;
+}
+
+.ora_interior img{
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-left: 25px;
+}
+
+/* ora cat storange */
+.ora_cargo{
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-top: 200px;
+    color: black;
+    font-size: 25px;
+}
+
+.ora_cargo img{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-right: 40px;
+}
+
+.ora_cargo h4{
+    padding-top: 130px;
+    
+}
+.ora_cargo p{
+    padding-bottom: 300px;
+}
+
+/* ora sensor and safety */
+.ora_safety{
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-top: 100px;
+    color: black;
+    font-size: 25px;
+}
+.ora_safety img{
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-right: 40px;
+}
+
+.ora_safety h5{
+    padding-top: 150px;
+}
+
+.ora_safety p{
+    padding-bottom: 300px;
+}
+
+/* spec table ora cat */
+.ora_h6{
+    margin-left: 50px;
+    padding-top: 100px;
+    color: black;
+    font-size: 30px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ora_table {
+    color: black;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.ora_table th, .ora_table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.ora_table th {
+    background-color: #f2f2f2;
+}
+
+
+
+/* BYD overlay here */
+.byd_intro{
+    position: relative;
+    color: darkgray;
+}
+
+.byd_intro p{
+    font-size: 25px;
+}
+
+.byd_intro img{
+    width: 100%;
+    height: 100%;
+}
+
+/* BYD second Image */
+.byd_special{
+  position: relative;
+  text-align: right;
+  color: white;
+  font-size: 25px;
+  margin-bottom:100px;
+}
+
+.byd_special img{
+    width: 100%;
+    height: 100%;
+}
+
+.byd_special_2{
+  position: relative;
+  text-align: right;
+  color: black;
+  font-size: 22px;
+  margin-bottom:100px;
+}
+
+.byd_special_2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay_byd{
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+}
+
+/*byd battery*/
+
+.byd_battery{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    font-size: 25px;
+}
+
+.byd_battery img{
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+.byd_battery img:hover{
+    transform: scale(1.05);
+}
+
+.byd_battery h3{
+    padding-top: 100px;
+}
+
+/* byd text 1, 2, 3 */
+.byd_text{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+    margin-bottom: 230px;
+    font-size: 25px;
+}
+
+.byd_text img{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+.byd_text img:hover{
+    transform: scale(1.05);
+}
+
+.byd_text h4{
+    padding-top: 100px;
+}
+
+.byd_text2{
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-top: 150px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.byd_text2 img{
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+.byd_text2 img:hover{
+    transform: scale(1.05);
+}
+
+.byd_text2 h5{
+    padding-top: 30px;
+}
+
+.byd_text3{
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.byd_text3 img{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+
+.byd_text3 img:hover{
+    transform: scale(1.1);
+}
+
+.byd_text3 h6{
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+/* byd interior */
+.byd_interior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%; 
+    overflow: hidden;
+    box-sizing: border-box;
+} 
+
+.byd_h7 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.byd_interior img {
+    width: 100%;
+    max-width: 404px;
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.byd_interior img:hover {
+    transform: scale(1.05);
+}
+
+.image_container_byd {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.performance img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensures the image covers the entire area */
+    object-position: center; /* Centers the image horizontally */
+}
+
+/* Team Section */
+#about_team_body {
+    flex: 1; /* This pushes the footer to the bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: black; /* Optional: Set a background color */
+}
+
+#about_team_body > div.member-container{
+    margin-top: 8vh;
+}
+
+.team-section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontally center items */
+    text-align: center; /* center text inside items */
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.team-member-info {
+    color: #cccccc;
+}
+
+.team-member-info h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: 0;
+}
+
+.team-member-info p {
+    font-size: 1em;
+    margin: 5px 0 0;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* add a border */
+    border-radius: 5px; /* optional: add some border radius for a softer look */
+    padding: 15px; /* add some padding inside the border */
+    margin-bottom: 20px; /* add some space between members */
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #fff; /* optional: add a background color */
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.member-info {
+    flex: 1; /* take up remaining space */
+}
+
+.member-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.member-description {
+    font-size: 1em;
+    margin-top: 5px; /* add some space at the top */
+}
+
+.section_about_company {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.section_about_company h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section_about_company img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.location-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.location-list li {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.section_about_company_content {
+    text-align: center;
+    padding: 50px;
+    background-color: #e9ecef;
+}
+
+.section_about_company_content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section_accessories {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.section_accessories h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.accessories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.accessory-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.accessory-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.accessory-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.accessory-item p {
+    margin: 5px 0;
+}
+
+.accessory-item button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.accessory-item button:hover {
+    background-color: #0056b3;
+}
